@@ -17,7 +17,7 @@ const ThirdPage = ({ data }) => (
     <div>
       <SEO title="Page two" />
       <h1>third page</h1>
-      <p>Welcome to page 3</p>
+      <p>Yo, Welcome to page 3</p>
       <Link to="/">Homepage</Link>
     </div>
   </Layout>
