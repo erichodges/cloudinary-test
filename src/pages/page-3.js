@@ -10,7 +10,7 @@ const ThirdPage = ({ data }) => (
       <h1 style={{ color: "white" }}>Headline goes here</h1>
     </BgImage>
     <div>
-      <SEO title="Page two" />
+      <SEO title="Page Two" />
       <h1>third page</h1>
       <p>Yo dude, Welcome to page 3</p>
       <Link to="/">Homepage</Link>
