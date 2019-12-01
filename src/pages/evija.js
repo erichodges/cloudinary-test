@@ -1,37 +1,41 @@
-import { graphql, Link, useStaticQuery } from "gatsby"
-import Image from "gatsby-image"
+import { graphql, Link } from "gatsby"
 import React from "react"
-// import CarImage from "../components/CarImage";
+import logo from "../../static/evija-logo-1560-white.gif"
+import BgImage from "../components/BgImage"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const CarImage = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      image: file(name: { eq: "car" }) {
-        cloudinary: childCloudinaryAsset {
-          fluid(maxWidth: 1920) {
-            ...CloudinaryAssetFluid
-          }
-        }
-      }
-    }
-  `)
-
-  return <Image fluid={data.image.cloudinary.fluid} alt="car image" />
+const styles = {
+  width: "400px",
+  marginTop: "80px",
 }
-
-const evija = () => (
+const Index = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
-    <div>
-      <CarImage />
-    </div>
-    <h1>Page 2</h1>
+    <BgImage title="car" fluid={data.image.cloudinary.fluid} overlayColor="">
+      <img style={styles} src={logo} alt="" />
 
-    <Link to="/">Home page</Link>
-    <br />
+      {/* <h1 style={{ color: "white" }}>Headline goes here</h1> */}
+    </BgImage>
+    <div>
+      <SEO title="Page two" />
+      <h1>Home page</h1>
+      <p>Welcome</p>
+      <Link to="/page-2">Page 2</Link>
+      <br />
+      <Link to="/page-3">Page 3</Link>
+    </div>
   </Layout>
 )
 
-export default evija
+export const query = graphql`
+  query {
+    image: file(name: { eq: "evija-hero" }) {
+      cloudinary: childCloudinaryAsset {
+        fluid(maxWidth: 1920) {
+          ...CloudinaryAssetFluid
+        }
+      }
+    }
+  }
+`
+export default Index
