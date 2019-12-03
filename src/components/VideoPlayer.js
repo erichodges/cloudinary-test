@@ -10,6 +10,7 @@ const VideoPlayer = () => {
         allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
         allowfullscreen
         frameborder="0"
+        style={{ width: "100%" }}
       ></iframe>
     </>
   )
