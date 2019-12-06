@@ -1,3 +1,69 @@
+.carvideo {
+  width: 100%;
+  height: 900px;
+  padding: 0;
+  margin: 0;
+  display: block;
+  line-height: 0px;
+  overflow-y: hidden;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1920px) {
+  .carvideo {
+    width: 100vw;
+    height: 900px;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .carvideo {
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .carvideo {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .carvideo {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .carvideo {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .carvideo {
+    width: 100vw;
+    height: 230px;
+  }
+}
+
 iframe {
   width: 100%;
   height: 800px;
