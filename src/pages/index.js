@@ -13,22 +13,7 @@ import "../components/VideoPlayer.css"
 // <VideoPlayer publicId="gatsby-cloudinary%2Fevija-dynamic-1-cut-1920" />
 const Index = ({ data }) => (
   <Layout>
-    <div className="carvideo">
-      <video controls autoPlay muted data-ar="1.778" playsInLine loop>
-        <source
-          src="https://77448790ecdce6d45774-3819184e75e4b8f6b5369812f0a4785e.ssl.cf3.rackcdn.com/evija/evija-dynamic-1-cut-1920.mp4"
-          type="video/mp4"
-          media="screen and (min-device-width:641px)"
-        />
-        <source
-          src="https://77448790ecdce6d45774-3819184e75e4b8f6b5369812f0a4785e.ssl.cf3.rackcdn.com/evija/evija-dynamic-1-cut-640.mp4"
-          type="video/mp4"
-          media="screen and (max-device-width:640px)"
-        />
-        If you can't see this video, you should update your browser. :-)
-      </video>
-    </div>
-    <ResponsivePlayer url="https://77448790ecdce6d45774-3819184e75e4b8f6b5369812f0a4785e.ssl.cf3.rackcdn.com/evija/evija-dynamic-1-cut-1920.mp4" />
+    <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1575238928/gatsby-cloudinary/evija-dynamic-1-cut-1920.mp4" />
     <div>
       <SEO title="Page two" />
       <h1>Home page</h1>
