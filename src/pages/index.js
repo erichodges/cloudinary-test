@@ -1,6 +1,7 @@
 import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../components/layout"
+import ResponsivePlayer from "../components/ResponsivePlayer"
 import SEO from "../components/seo"
 import "../components/VideoPlayer.css"
 
@@ -27,6 +28,7 @@ const Index = ({ data }) => (
         If you can't see this video, you should update your browser. :-)
       </video>
     </div>
+    <ResponsivePlayer url="https://77448790ecdce6d45774-3819184e75e4b8f6b5369812f0a4785e.ssl.cf3.rackcdn.com/evija/evija-dynamic-1-cut-1920.mp4" />
     <div>
       <SEO title="Page two" />
       <h1>Home page</h1>
