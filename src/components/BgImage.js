@@ -1,3 +1,4 @@
+// https://markoskon.com/gatsby-background-image-example/
 import Image from "gatsby-image"
 import PropTypes from "prop-types"
 import React from "react"
@@ -5,7 +6,9 @@ import styled from "styled-components"
 
 const Parent = styled.div`
   position: relative;
+  display: block;
   background-color: ${({ bc }) => bc};
+  vertical-align: top;
 `
 
 const FakeBgImage = styled(Image)`
@@ -13,7 +16,7 @@ const FakeBgImage = styled(Image)`
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+
   z-index: -10;
 
   & > img {
