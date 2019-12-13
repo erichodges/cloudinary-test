@@ -4,7 +4,6 @@ import BgImage from "../components/BgImage"
 import Layout from "../components/layout"
 import ResponsivePlayer from "../components/ResponsivePlayer"
 import SEO from "../components/seo"
-import "../components/VideoPlayer.css"
 
 const Index = ({ data }) => (
   <Layout>
