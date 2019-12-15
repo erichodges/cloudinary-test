@@ -18,7 +18,7 @@ const Index = ({ data }) => (
     <div>
       <SEO title="Page two" />
       <h1>Home page</h1>
-      <p>Welcome</p>
+      <br />
       <Link to="/evija">evija</Link>
       <br />
       <Link to="/evora">evora</Link>
