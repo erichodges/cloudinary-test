@@ -13,7 +13,7 @@ const Index = ({ data }) => (
       fluid={data.image.cloudinary.fluid}
       overlayColor=""
     >
-      <h1 style={{ color: "white" }}>Evora GT</h1>
+      <h1 style={{ color: "yellow" }}>Evora GT</h1>
     </BgImage>
     <div>
       <SEO title="Page two" />
