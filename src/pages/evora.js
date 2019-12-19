@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const CarImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      image: file(name: { eq: "car" }) {
+      image: file(name: { eq: "evora-gt-front" }) {
         cloudinary: childCloudinaryAsset {
           fluid(maxWidth: 1920) {
             ...CloudinaryAssetFluid
@@ -21,7 +21,7 @@ const CarImage = () => {
   return <Image fluid={data.image.cloudinary.fluid} alt="car image" />
 }
 
-const evija = () => (
+const evora = () => (
   <Layout>
     <SEO title="Home" />
     <div>
@@ -34,4 +34,4 @@ const evija = () => (
   </Layout>
 )
 
-export default evija
+export default evora
