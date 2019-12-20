@@ -12,7 +12,7 @@ const ResponsivePlayer = ({ url }) => {
         height="100%"
         controls={true}
         loop={true}
-        volume="0"
+        volume={0}
         playing={true}
       />
     </div>
