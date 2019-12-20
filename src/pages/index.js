@@ -33,23 +33,43 @@ const Index = ({ data }) => (
   </Layout>
 )
 
-export const query = graphql`
-  query {
-    evoraGT: file(name: { eq: "evora-gt" }) {
-      cloudinary: childCloudinaryAsset {
-        fluid(maxWidth: 1920) {
-          ...CloudinaryAssetFluid
-        }
-      }
-    }
-    evoraFour: file(name: { eq: "evora-400-side" }) {
-      cloudinary: childCloudinaryAsset {
-        fluid(maxWidth: 1920) {
-          ...CloudinaryAssetFluid
-        }
+export const fluidImage = graphql`
+  fragment fluidImage on File {
+    cloudinary: childCloudinaryAsset {
+      fluid(maxWidth: 1920) {
+        ...CloudinaryAssetFluid
       }
     }
   }
 `
 
+export const query = graphql`
+  query {
+    evoraGT: file(name: { eq: "evora-gt" }) {
+      ...fluidImage
+    }
+    evoraFour: file(name: { eq: "evora-400-side" }) {
+      ...fluidImage
+    }
+  }
+`
+
 export default Index
+
+// previous setup for multiple images:
+// query {
+//   evoraGT: file(name: { eq: "evora-gt" }) {
+//     cloudinary: childCloudinaryAsset {
+//       fluid(maxWidth: 1920) {
+//         ...CloudinaryAssetFluid
+//       }
+//     }
+//   }
+//   evoraFour: file(name: { eq: "evora-400-side" }) {
+//     cloudinary: childCloudinaryAsset {
+//       fluid(maxWidth: 1920) {
+//         ...CloudinaryAssetFluid
+//       }
+//     }
+//   }
+// }
