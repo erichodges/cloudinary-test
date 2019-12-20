@@ -10,10 +10,17 @@ const Index = ({ data }) => (
     <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1575238928/gatsby-cloudinary/evija-dynamic-1-cut-1920.mp4" />
     <BgImage
       title="evora-gt"
-      fluid={data.image.cloudinary.fluid}
+      fluid={data.evoraGT.cloudinary.fluid}
       overlayColor=""
     >
       <h1 style={{ color: "yellow" }}>Evora GT</h1>
+    </BgImage>
+    <BgImage
+      title="evora-400"
+      fluid={data.evoraFour.cloudinary.fluid}
+      overlayColor=""
+    >
+      <h1 style={{ color: "yellow" }}>Evora 400</h1>
     </BgImage>
     <div>
       <SEO title="Page two" />
@@ -28,7 +35,14 @@ const Index = ({ data }) => (
 
 export const query = graphql`
   query {
-    image: file(name: { eq: "evora-gt" }) {
+    evoraGT: file(name: { eq: "evora-gt" }) {
+      cloudinary: childCloudinaryAsset {
+        fluid(maxWidth: 1920) {
+          ...CloudinaryAssetFluid
+        }
+      }
+    }
+    evoraFour: file(name: { eq: "evora-400-side" }) {
       cloudinary: childCloudinaryAsset {
         fluid(maxWidth: 1920) {
           ...CloudinaryAssetFluid
