@@ -27,7 +27,7 @@ const evora = () => (
     <div>
       <CarImage />
     </div>
-    <h1>Page 2</h1>
+    <h1>Evora Page</h1>
 
     <Link to="/">Home page</Link>
     <br />
