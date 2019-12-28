@@ -29,7 +29,7 @@ const evora = () => (
     </div>
     <h1>Evora GT</h1>
 
-    <Link to="/">Home page</Link>
+    <Link to="/">Index page</Link>
     <br />
   </Layout>
 )
