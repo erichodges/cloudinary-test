@@ -1,7 +1,6 @@
 import { graphql, Link, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
 import React from "react"
-// import CarImage from "../components/CarImage";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
