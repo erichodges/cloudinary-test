@@ -3,6 +3,7 @@ import Image from "gatsby-image"
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "../styles/evora.css"
 
 const CarImage = () => {
   const data = useStaticQuery(graphql`
