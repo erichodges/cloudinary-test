@@ -2,7 +2,7 @@
   display: grid;
   grid:
     "header header" auto
-    "col-1 col-2" 1fr;
+    "col-1 col-2" auto / 1fr 1fr;
 }
 
 header {
