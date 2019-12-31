@@ -1,3 +1,19 @@
-body {
-  grid: "col-1" "col-2" auto;
+.main {
+  display: grid;
+  grid:
+    "header header" auto
+    "col-1 col-2" 1fr;
+}
+
+header {
+  grid-area: header;
+}
+
+.col-1 {
+  grid-area: col-1;
+  justify-self: center;
+}
+.col-2 {
+  grid-area: col-2;
+  justify-self: center;
 }
