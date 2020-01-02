@@ -24,17 +24,20 @@ const CarImage = () => {
 const evora = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="main">
-      <header>
-        <CarImage />
-      </header>
+    <header>
+      <CarImage />
+    </header>
 
+    <div className="main">
       <h1 className="col-1">Evora GT</h1>
 
       <Link to="/" className="col-2">
         Index page
       </Link>
       <br />
+    </div>
+    <div>
+      <h2 className="row-2">Some text placeholder</h2>
     </div>
   </Layout>
 )
