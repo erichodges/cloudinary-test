@@ -1,22 +1,28 @@
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   grid-template-areas:
     "A  B"
     "C  .";
 }
 
-.col-1 {
+.heading-A {
+  text-transform: uppercase;
   grid-area: A;
   justify-self: center;
+  padding-top: 2rem;
 }
-.col-2 {
+.text-2 {
+  grid-area: A;
+  justify-self: center;
+  padding: 2rem 4rem;
+}
+.area-B {
   grid-area: B;
   justify-self: center;
 }
 
-.row-2 {
+.area-C {
   grid-area: C;
   justify-self: center;
 }
