@@ -35,10 +35,9 @@ const evora = () => (
         Index page
       </Link>
       <br />
-    </div>
-    <div>
       <h2 className="row-2">Some text placeholder</h2>
     </div>
+    <div></div>
   </Layout>
 )
 

@@ -1,14 +1,10 @@
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid:
-    "header header"
+
+  grid-template-areas:
     "A  B"
     "C  .";
-}
-
-header {
-  grid-area: header;
 }
 
 .col-1 {
