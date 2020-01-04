@@ -49,10 +49,17 @@ const evora = ({ data }) => (
         rhythm, smoothing out rough surfaces, breathing with the road for an
         enthralling, immersive driving experience.
       </p>
-      <Image fluid={data.evoraGTBack.cloudinary.fluid} />
+
+      <Image
+        outerWrapperClassName={"area - B"}
+        fluid={data.evoraGTBack.cloudinary.fluid}
+      />
 
       <br />
-      <h2 className="area-C">Some text placeholder</h2>
+      <Image
+        outerWrapperClassName={"area - C"}
+        fluid={data.evoraGTWheel.cloudinary.fluid}
+      />
     </div>
     <div></div>
   </Layout>
@@ -74,6 +81,9 @@ export const query = graphql`
       ...fluidImage
     }
     evoraGTBack: file(name: { eq: "evoraGT-back-square" }) {
+      ...fluidImage
+    }
+    evoraGTWheel: file(name: { eq: "evoraGT-wheel" }) {
       ...fluidImage
     }
   }
