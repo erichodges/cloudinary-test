@@ -51,13 +51,13 @@ const evora = ({ data }) => (
       </p>
 
       <Image
-        outerWrapperClassName={"area - B"}
+        className={`${"area - B"}`}
         fluid={data.evoraGTBack.cloudinary.fluid}
       />
 
       <br />
       <Image
-        outerWrapperClassName={"area - C"}
+        className={`${"area - C"}`}
         fluid={data.evoraGTWheel.cloudinary.fluid}
       />
     </div>
