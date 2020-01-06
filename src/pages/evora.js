@@ -5,22 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../styles/evora.css"
 
-// const CarImage = () => {
-//   const data = useStaticQuery(graphql`
-//     query {
-//       image: file(name: { eq: "evora-gt-front" }) {
-//         cloudinary: childCloudinaryAsset {
-//           fluid(maxWidth: 1920) {
-//             ...CloudinaryAssetFluid
-//           }
-//         }
-//       }
-//     }
-//   `)
-
-//   return <Image fluid={data.image.cloudinary.fluid} alt="car image" />
-// }
-
 const evora = ({ data }) => (
   <Layout>
     <SEO title="Home" />
@@ -57,6 +41,33 @@ const evora = ({ data }) => (
       <div className="area-C" style={{ width: "100%" }}>
         <Image fluid={data.evoraGTWheel.cloudinary.fluid} />
       </div>
+      <h4 className="heading-D">Handling masterclass</h4>
+      <p className="area-D">
+        Whatever the road throws at you, whether it’s a sweeping curve,
+        challenging hairpin or undulating straight, the Evora demonstrates
+        complete mastery over them all. An elegant, low-drag, fastback design
+        combines fluid lines and a swept-forward cabin with an athletic stance
+        and distinctive presence. The meticulously weighted, hydraulic power
+        steering remains an industry benchmark. A tactile delight, it displays
+        total fluency on the road, transmitting authentic feedback directly to
+        the driver while filtering out unwanted noise, keeping you uniquely
+        connected to the road.
+      </p>
+      <div className="area-F" style={{ width: "100%" }}>
+        <Image fluid={data.evoraGTInterior.cloudinary.fluid} />
+      </div>
+      {/* <h4 className="heading-D">Handling masterclass</h4> */}
+      <p className="area-E">
+        Whatever the road throws at you, whether it’s a sweeping curve,
+        challenging hairpin or undulating straight, the Evora demonstrates
+        complete mastery over them all. An elegant, low-drag, fastback design
+        combines fluid lines and a swept-forward cabin with an athletic stance
+        and distinctive presence. The meticulously weighted, hydraulic power
+        steering remains an industry benchmark. A tactile delight, it displays
+        total fluency on the road, transmitting authentic feedback directly to
+        the driver while filtering out unwanted noise, keeping you uniquely
+        connected to the road.
+      </p>
     </div>
   </Layout>
 )
@@ -80,6 +91,9 @@ export const query = graphql`
       ...fluidImage
     }
     evoraGTWheel: file(name: { eq: "evoraGT-wheel" }) {
+      ...fluidImage
+    }
+    evoraGTInterior: file(name: { eq: "evoraGT-Interior" }) {
       ...fluidImage
     }
   }
