@@ -31,7 +31,7 @@ const evora = ({ data }) => (
     <div className="main">
       <h4 className="heading-A">Uniquely brilliant</h4>
 
-      <p className="text-2">
+      <p className="area-A">
         <br />
         <br />
         The stunning new Evora GT takes the Evora’s unique attributes to
@@ -49,19 +49,15 @@ const evora = ({ data }) => (
         rhythm, smoothing out rough surfaces, breathing with the road for an
         enthralling, immersive driving experience.
       </p>
-
-      <Image
-        className={`${"area - B"}`}
-        fluid={data.evoraGTBack.cloudinary.fluid}
-      />
+      <div className="area-B" style={{ width: "100%" }}>
+        <Image fluid={data.evoraGTBack.cloudinary.fluid} />
+      </div>
 
       <br />
-      <Image
-        className={`${"area - C"}`}
-        fluid={data.evoraGTWheel.cloudinary.fluid}
-      />
+      <div className="area-C" style={{ width: "100%" }}>
+        <Image fluid={data.evoraGTWheel.cloudinary.fluid} />
+      </div>
     </div>
-    <div></div>
   </Layout>
 )
 
