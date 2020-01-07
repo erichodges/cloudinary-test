@@ -58,15 +58,23 @@ const evora = ({ data }) => (
       </div>
       {/* <h4 className="heading-D">Handling masterclass</h4> */}
       <p className="area-E">
-        Whatever the road throws at you, whether it’s a sweeping curve,
-        challenging hairpin or undulating straight, the Evora demonstrates
-        complete mastery over them all. An elegant, low-drag, fastback design
-        combines fluid lines and a swept-forward cabin with an athletic stance
-        and distinctive presence. The meticulously weighted, hydraulic power
-        steering remains an industry benchmark. A tactile delight, it displays
-        total fluency on the road, transmitting authentic feedback directly to
-        the driver while filtering out unwanted noise, keeping you uniquely
-        connected to the road.
+        Available as both a 2+0 or 2+2, with a choice of 6-speed manual or
+        paddleshift automatic transmissions, a wide range of options allows you
+        to specify your car for enhanced GT comfort or greater track focus. A
+        race suspension package is available, from your local dealer, featuring
+        Öhlins TTX 2-Way Adjustable Dampers, transforming the car for hard track
+        use. Optional ‘J’ hook brake discs improve the initial brake response
+        and pad de-glazing.
+        <br />
+        <br />
+        The cabin includes beautifully detailed carbon backed sports seats,
+        carbon topped instrument binnacle and carbon fibre sill trims. The
+        steering wheel, dashboard, door panels, transmission tunnel and centre
+        console are all trimmed in black Alcantara® and perforated leather,
+        complemented by contrast twin colour stitching. An integrated 7”
+        touch-screen infotainment system with Apple CarPlay and Android Auto,
+        Bluetooth® functionality, satellite navigation and reversing camera also
+        comes as standard.
       </p>
     </div>
   </Layout>
