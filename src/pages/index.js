@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const Index = ({ data }) => (
   <Layout>
-    <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1575238928/gatsby-cloudinary/evija-dynamic-1-cut-1920.mp4" />
+    <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4" />
     <BgImage
       title="evora-gt"
       fluid={data.evoraGT.cloudinary.fluid}
