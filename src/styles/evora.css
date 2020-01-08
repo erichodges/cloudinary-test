@@ -7,6 +7,15 @@
     "E  F";
 }
 
+.evoraGTHeaderImage {
+  width: 100%;
+}
+
+.evoraGTSubmenu {
+  height: 2.6rem;
+  width: 100%;
+  background-color: yellow;
+}
 .heading-A {
   text-transform: uppercase;
   grid-area: A;

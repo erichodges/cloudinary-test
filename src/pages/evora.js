@@ -8,10 +8,11 @@ import "../styles/evora.css"
 const evora = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <header>
+    <div className="evoraGTHeaderImage">
       <Image fluid={data.evoraGT.cloudinary.fluid} />
-    </header>
-
+    </div>
+    <div className="evoraGTSubmenu"></div>
+    <div className="optionMenu"></div>
     <div className="main">
       <h4 className="heading-A">Uniquely brilliant</h4>
 
