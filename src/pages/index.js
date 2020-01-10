@@ -4,9 +4,22 @@ import BgImage from "../components/BgImage"
 import Layout from "../components/layout"
 import ResponsivePlayer from "../components/ResponsivePlayer"
 import SEO from "../components/seo"
+import "../styles/index.css"
 
 const Index = ({ data }) => (
   <Layout>
+    <header>
+      <nav>
+        <ul className="headerItems">
+          <li>Models</li>
+          <li>Pre-owned</li>
+          <li>For the drivers</li>
+          <li>Logo</li>
+          <li>Test Drive</li>
+          <li>Dealers</li>
+        </ul>
+      </nav>
+    </header>
     <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4" />
     <BgImage
       title="evora-gt"

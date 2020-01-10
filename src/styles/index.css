@@ -1,0 +1,20 @@
+header {
+}
+
+nav {
+  width: 100vw;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  flex: 3;
+}
+
+.headerItems {
+  list-style: none;
+}
