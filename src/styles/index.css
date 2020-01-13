@@ -18,3 +18,7 @@ nav li {
 .headerItems {
   list-style: none;
 }
+
+.logo {
+  align-self: center;
+}

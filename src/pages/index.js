@@ -14,7 +14,15 @@ const Index = ({ data }) => (
           <li>Models</li>
           <li>Pre-owned</li>
           <li>For the drivers</li>
-          <li>Logo</li>
+        </ul>
+
+        <div className="logo">
+          <ul>
+            <li>Logo</li>
+          </ul>
+        </div>
+
+        <ul className="headerItems">
           <li>Test Drive</li>
           <li>Dealers</li>
         </ul>
