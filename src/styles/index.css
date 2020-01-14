@@ -3,16 +3,20 @@ header {
 
 nav {
   width: 100vw;
+  display: grid;
+  grid-template-columns: 3fr 3fr 2fr;
+  align-items: center;
+
+  height: 5rem;
+  overflow: hidden;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
-  display: flex;
 }
 
 nav li {
-  flex: 3;
 }
 
 .headerItems {
@@ -21,4 +25,5 @@ nav li {
 
 .logo {
   align-self: center;
+  list-style: none;
 }
