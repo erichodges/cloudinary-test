@@ -11,16 +11,19 @@ nav {
   display: flex;
   align-items: center;
   margin-bottom: 0;
+
   padding: 0;
 }
 
 .logo {
   cursor: pointer;
+  margin-left: -6rem;
   margin-bottom: 0;
 }
 
 ul {
   margin-bottom: 0;
+  margin-left: 0;
 }
 
 .nav-links-1 {
@@ -28,7 +31,7 @@ ul {
 }
 
 .nav-links-1 li {
-  margin-right: 3rem;
+  margin-left: 2rem;
   margin-bottom: 0;
   list-style: none;
 }
@@ -38,7 +41,7 @@ ul {
 }
 
 .nav-links-2 li {
-  margin-right: 3rem;
+  margin-right: 2rem;
   margin-bottom: 0;
   list-style: none;
 }
