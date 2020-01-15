@@ -10,21 +10,17 @@ const Index = ({ data }) => (
   <Layout>
     <header>
       <nav>
-        <ul className="headerItems">
-          <li>Models</li>
-          <li>Pre-owned</li>
-          <li>For the drivers</li>
+        <ul className="nav-links-1">
+          <li className="li-1">Models</li>
+          <li className="li-1">Pre-owned</li>
+          <li className="li-1">For the drivers</li>
         </ul>
 
-        <div className="logo">
-          <ul>
-            <li>Logo</li>
-          </ul>
-        </div>
+        <h3 className="logo">logo</h3>
 
-        <ul className="headerItems">
-          <li>Test Drive</li>
-          <li>Dealers</li>
+        <ul className="nav-links-2">
+          <li className="li-2">Test Drive</li>
+          <li className="li-2">Dealers</li>
         </ul>
       </nav>
     </header>
