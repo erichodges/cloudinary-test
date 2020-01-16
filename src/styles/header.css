@@ -9,6 +9,9 @@ header {
   font-family: Overpass, sans-serif;
   background-color: #062e28;
   color: #e7e5eb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 nav {
