@@ -69,6 +69,9 @@ export const query = graphql`
     evoraFour: file(name: { eq: "evora-400-side" }) {
       ...fluidImage
     }
+    logo: file(name: { eq: "lotus-logo" }) {
+      ...fluidImage
+    }
   }
 `
 

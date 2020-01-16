@@ -1,1 +1,1 @@
-releaseEvents("typeface-overpass")
+require("typeface-overpass")
