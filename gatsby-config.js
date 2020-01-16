@@ -37,8 +37,8 @@ module.exports = {
         name: `gatsby-cloudinary-test`,
         short_name: `cloudinary-test`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#062e28`,
+        theme_color: `#062e28`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
