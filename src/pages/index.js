@@ -8,23 +8,6 @@ import "../styles/index.css"
 
 const Index = ({ data }) => (
   <Layout>
-    <header>
-      <nav>
-        <ul className="nav-links-1">
-          <li className="li-1">Models</li>
-          <li className="li-1">Pre-owned</li>
-          <li className="li-1">For the drivers</li>
-        </ul>
-      </nav>
-
-      <h3 className="logo">logo</h3>
-      <nav>
-        <ul className="nav-links-2">
-          <li className="li-2">Test Drive</li>
-          <li className="li-2">Dealers</li>
-        </ul>
-      </nav>
-    </header>
     <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4" />
     <BgImage
       title="evora-gt"
