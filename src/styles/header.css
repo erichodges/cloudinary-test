@@ -16,6 +16,7 @@ header {
 
 nav {
   display: flex;
+  white-space: nowrap;
   align-items: center;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -26,7 +27,8 @@ nav {
 
 .logo {
   cursor: pointer;
-  margin-left: -6rem;
+
+  /* margin-left: -6rem; */
   margin-bottom: 0;
 }
 
@@ -41,16 +43,19 @@ ul {
 
 .nav-links-1 li {
   margin-left: 2rem;
+
   margin-bottom: 0;
   list-style: none;
 }
 
 .nav-links-2 {
   display: flex;
+  margin-left: auto;
 }
 
 .nav-links-2 li {
   margin-right: 2rem;
+
   margin-bottom: 0;
   list-style: none;
 }
