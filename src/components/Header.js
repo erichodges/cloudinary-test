@@ -1,22 +1,20 @@
-import { graphql } from "gatsby"
 import React from "react"
 import "../styles/header.css"
 
 const Header = ({ data }) => (
   <header>
     <nav>
-      <ul className="nav-links-1">
-        <li className="li-1">Models</li>
-        <li className="li-1">Pre-owned</li>
-        <li className="li-1">For the drivers</li>
-      </ul>
-    </nav>
+      <ul className="nav-ul">
+        <li className="li-1 nav-links-1">Models</li>
+        <li className="li-1 nav-links-1">Pre-owned</li>
+        <li className="li-1 nav-links-1">For the drivers</li>
 
-    <h3 className="logo">logo</h3>
-    <nav>
-      <ul className="nav-links-2">
-        <li className="li-2">Test Drive</li>
-        <li className="li-2">Dealers</li>
+        <li className="logo">
+          <h3>logo</h3>
+        </li>
+
+        <li className="li-2 nav-links-2">Test Drive</li>
+        <li className="li-2 nav-links-2">Dealers</li>
       </ul>
     </nav>
   </header>

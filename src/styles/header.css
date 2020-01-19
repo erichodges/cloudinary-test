@@ -4,7 +4,7 @@ header {
   width: 100vw;
   height: 4rem;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   font-family: Overpass, sans-serif;
   background-color: #062e28;
@@ -25,17 +25,23 @@ nav {
   padding: 0;
 }
 
+.nav-ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
 .logo {
   cursor: pointer;
-
-  /* margin-left: -6rem; */
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 0;
 }
 
-ul {
+/* ul {
   margin-bottom: 0;
   margin-left: 0;
-}
+} */
 
 .nav-links-1 {
   display: flex;
@@ -45,7 +51,7 @@ ul {
   margin-left: 2rem;
 
   margin-bottom: 0;
-  list-style: none;
+  /* list-style: none; */
 }
 
 .nav-links-2 {
