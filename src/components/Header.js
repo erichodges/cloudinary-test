@@ -3,20 +3,17 @@ import "../styles/header.css"
 
 const Header = ({ data }) => (
   <header>
-    <nav>
-      <ul className="nav-ul">
-        <li className="li-1 nav-links-1">Models</li>
-        <li className="li-1 nav-links-1">Pre-owned</li>
-        <li className="li-1 nav-links-1">For the drivers</li>
+    <ul className="twitter">
+      <li className="logo">
+        <h3>logo</h3>
+      </li>
+      <li className="menu">Models</li>
+      <li className="menu">Pre-owned</li>
+      <li className="menu">For the drivers</li>
 
-        <li className="logo">
-          <h3>logo</h3>
-        </li>
-
-        <li className="li-2 nav-links-2">Test Drive</li>
-        <li className="li-2 nav-links-2">Dealers</li>
-      </ul>
-    </nav>
+      <li className="menu">Test Drive</li>
+      <li className="menu">Dealers</li>
+    </ul>
   </header>
 )
 

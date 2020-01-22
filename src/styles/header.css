@@ -1,4 +1,35 @@
 /* yellow color: FFF200 */
+header {
+  align-items: center;
+  font-family: Overpass, sans-serif;
+  background-color: #062e28;
+  color: #e7e5eb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+ul {
+  width: 100vw;
+  height: 4rem;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.twitter {
+  display: flex;
+}
+
+.logo {
+  margin-left: 2rem;
+  margin-right: auto;
+}
+
+.menu {
+  margin-right: 2rem;
+}
 
 /* Old version */
 
