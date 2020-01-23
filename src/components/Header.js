@@ -1,11 +1,12 @@
 import React from "react"
+import LotusLogo from "../images/lotus-logo.svg"
 import "../styles/header.css"
 
 const Header = ({ data }) => (
   <header>
     <ul className="twitter">
-      <li className="logo">
-        <h3>logo</h3>
+      <li className="Img">
+        <img src={LotusLogo} alt="Lotus logo" />
       </li>
       <li className="menu">Models</li>
       <li className="menu">Pre-owned</li>

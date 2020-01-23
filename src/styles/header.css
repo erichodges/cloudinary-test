@@ -22,7 +22,10 @@ ul {
   display: flex;
 }
 
-.logo {
+.Img {
+  /* height: 50px; */
+  width: 60px;
+  cursor: pointer;
   margin-left: 2rem;
   margin-right: auto;
 }
