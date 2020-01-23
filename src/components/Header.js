@@ -4,7 +4,7 @@ import "../styles/header.css"
 
 const Header = ({ data }) => (
   <header>
-    <ul className="twitter">
+    <ul className="menu-items">
       <li className="Img">
         <img src={LotusLogo} alt="Lotus logo" />
       </li>

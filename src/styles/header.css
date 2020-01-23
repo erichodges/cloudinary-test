@@ -11,15 +11,23 @@ header {
 
 ul {
   width: 100vw;
-  height: 4rem;
+  height: 5rem;
   align-items: center;
   padding: 0;
   list-style: none;
   text-transform: uppercase;
 }
 
-.twitter {
+.menu-items {
   display: flex;
+}
+
+.menu-items li {
+  cursor: pointer;
+}
+
+.menu-items li:hover {
+  color: #fff200;
 }
 
 .Img {
