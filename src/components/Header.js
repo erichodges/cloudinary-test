@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import LotusLogo from "../images/lotus-logo.svg"
 import "../styles/header.css"
@@ -6,7 +7,9 @@ const Header = ({ data }) => (
   <header>
     <ul className="menu-items">
       <li className="Img">
-        <img src={LotusLogo} alt="Lotus logo" />
+        <Link to="/">
+          <img src={LotusLogo} alt="Lotus logo" />
+        </Link>
       </li>
       <li className="menu">Models</li>
       <li className="menu">Pre-owned</li>
