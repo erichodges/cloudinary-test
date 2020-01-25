@@ -13,7 +13,7 @@ const Parent = styled.div`
 
 const FakeBgImage = styled(Image)`
   position: absolute;
-  top: 0;
+  top: -5vw;
   left: 0;
   width: 100vw;
 
@@ -31,10 +31,10 @@ const FakeBgImage = styled(Image)`
 
 const Content = styled.div`
   position: absolute;
-  text-align: center;
-  top: 18vh;
-  height: 100%;
-  width: 100%;
+  top: 25vh;
+
+  margin-left: 33vw;
+
   z-index: -5;
 
   @media screen and (max-width: 500px) {

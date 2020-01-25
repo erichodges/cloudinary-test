@@ -9,10 +9,11 @@ const styles = {
   width: "400px",
   marginTop: "80px",
 }
+
 const Index = ({ data }) => (
   <Layout>
     <BgImage title="car" fluid={data.image.cloudinary.fluid} overlayColor="">
-      <img style={styles} src={logo} alt="" />
+      <img style={styles} src={logo} alt="evija logo" />
 
       {/* <h1 style={{ color: "white" }}>Headline goes here</h1> */}
     </BgImage>
