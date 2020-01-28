@@ -7,10 +7,10 @@ import SEO from "../components/seo"
 
 const Index = ({ data }) => (
   <Layout>
-    <div style={{ height: "auto", display: "block", zIndex: "-200" }}>
+    <div>
       <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4" />
     </div>
-    <div style={{ height: "auto", display: "block", zIndex: "0" }}>
+    <div>
       <BgImage
         title="evora-gt"
         fluid={data.evoraGT.cloudinary.fluid}
@@ -19,7 +19,7 @@ const Index = ({ data }) => (
         <h1 style={{ color: "yellow" }}>Evora GT</h1>
       </BgImage>
     </div>
-    <div style={{ height: "auto", display: "block", zIndex: "0" }}>
+    <div>
       <BgImage
         title="evora-400"
         fluid={data.evoraFour.cloudinary.fluid}
