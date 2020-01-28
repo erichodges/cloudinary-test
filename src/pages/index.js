@@ -45,7 +45,7 @@ export const fluidImage = graphql`
 
 export const query = graphql`
   query {
-    evoraGT: file(name: { eq: "evora-gt" }) {
+    evoraGT: file(name: { eq: "evora-gt-side" }) {
       ...fluidImage
     }
     evoraFour: file(name: { eq: "evora-400-side" }) {
@@ -58,21 +58,3 @@ export const query = graphql`
 `
 
 export default Index
-
-// previous setup for multiple images:
-// query {
-//   evoraGT: file(name: { eq: "evora-gt" }) {
-//     cloudinary: childCloudinaryAsset {
-//       fluid(maxWidth: 1920) {
-//         ...CloudinaryAssetFluid
-//       }
-//     }
-//   }
-//   evoraFour: file(name: { eq: "evora-400-side" }) {
-//     cloudinary: childCloudinaryAsset {
-//       fluid(maxWidth: 1920) {
-//         ...CloudinaryAssetFluid
-//       }
-//     }
-//   }
-// }
