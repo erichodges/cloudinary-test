@@ -7,21 +7,27 @@ import SEO from "../components/seo"
 
 const Index = ({ data }) => (
   <Layout>
-    <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4" />
-    <BgImage
-      title="evora-gt"
-      fluid={data.evoraGT.cloudinary.fluid}
-      overlayColor=""
-    >
-      <h1 style={{ color: "yellow" }}>Evora GT</h1>
-    </BgImage>
-    <BgImage
-      title="evora-400"
-      fluid={data.evoraFour.cloudinary.fluid}
-      overlayColor=""
-    >
-      <h1 style={{ color: "yellow" }}>Evora 400</h1>
-    </BgImage>
+    <div style={{ height: "auto", display: "block", zIndex: "-200" }}>
+      <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4" />
+    </div>
+    <div style={{ height: "auto", display: "block", zIndex: "0" }}>
+      <BgImage
+        title="evora-gt"
+        fluid={data.evoraGT.cloudinary.fluid}
+        overlayColor=""
+      >
+        <h1 style={{ color: "yellow" }}>Evora GT</h1>
+      </BgImage>
+    </div>
+    <div style={{ height: "auto", display: "block", zIndex: "0" }}>
+      <BgImage
+        title="evora-400"
+        fluid={data.evoraFour.cloudinary.fluid}
+        overlayColor=""
+      >
+        <h1 style={{ color: "yellow" }}>Evora 400</h1>
+      </BgImage>
+    </div>
     <div>
       <SEO title="Page two" />
       <h1>Index page</h1>

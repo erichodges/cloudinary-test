@@ -13,7 +13,7 @@ const Parent = styled.div`
 
 const FakeBgImage = styled(Image)`
   position: absolute;
-  top: -5vw;
+  top: 0;
   left: 0;
   width: 100vw;
 
