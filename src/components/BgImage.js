@@ -9,6 +9,7 @@ const Parent = styled.div`
   display: block;
   background-color: ${({ bc }) => bc};
   vertical-align: top;
+  text-align: center;
 `
 
 const FakeBgImage = styled(Image)`
@@ -31,11 +32,9 @@ const FakeBgImage = styled(Image)`
 
 const Content = styled.div`
   position: absolute;
-  text-transform: uppercase;
-  top: 40px;
-  left: 45%;
-  font-weight: 100 !important;
-  z-index: -5;
+  top: 2rem;
+  left: 35%;
+  z-index: 20;
 
   @media screen and (max-width: 500px) {
     top: 47vh;

@@ -4,19 +4,22 @@ import BgImage from "../components/BgImage"
 import Layout from "../components/layout"
 import ResponsivePlayer from "../components/ResponsivePlayer"
 import SEO from "../components/seo"
+import "../styles/index.css"
 
 const Index = ({ data }) => (
   <Layout>
     <div>
       <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4" />
     </div>
-    <div>
+    <div className="photo-div">
       <BgImage
         title="evora-gt"
         fluid={data.evoraGT.cloudinary.fluid}
         overlayColor=""
       >
-        <h1 style={{ color: "yellow" }}>Evora GT</h1>
+        <h1 id="evoraGT-h1" className="model-h1">
+          Evora GT
+        </h1>
       </BgImage>
     </div>
     <div>
@@ -25,7 +28,9 @@ const Index = ({ data }) => (
         fluid={data.evoraFour.cloudinary.fluid}
         overlayColor=""
       >
-        <h1 style={{ color: "yellow" }}>Evora 400</h1>
+        <h1 className="model-h1" style={{ color: "yellow" }}>
+          Evora 400
+        </h1>
       </BgImage>
     </div>
     <div>

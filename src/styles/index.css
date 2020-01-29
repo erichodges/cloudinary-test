@@ -1,0 +1,15 @@
+.model-h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  color: yellow;
+}
+
+#evoraGT-h1 {
+  text-indent: 1.5rem;
+}
+
+.photo-div {
+  display: flex;
+}
