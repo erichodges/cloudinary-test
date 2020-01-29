@@ -31,11 +31,10 @@ const FakeBgImage = styled(Image)`
 
 const Content = styled.div`
   position: absolute;
-  text-align: center;
   text-transform: uppercase;
   top: 40px;
-  right: 40%;
-
+  left: 45%;
+  font-weight: 100 !important;
   z-index: -5;
 
   @media screen and (max-width: 500px) {
