@@ -32,8 +32,9 @@ const FakeBgImage = styled(Image)`
 
 const Content = styled.div`
   position: absolute;
-  top: 2rem;
-  left: 35%;
+  top: 4rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 20;
 
   @media screen and (max-width: 500px) {
