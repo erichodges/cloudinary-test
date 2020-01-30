@@ -32,7 +32,7 @@ const FakeBgImage = styled(Image)`
 
 const Content = styled.div`
   position: absolute;
-  top: 4.5rem;
+  top: 7rem;
   left: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap;

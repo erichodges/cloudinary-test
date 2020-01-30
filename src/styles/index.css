@@ -1,7 +1,7 @@
 .model-h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 100;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.85rem;
   text-transform: uppercase;
   color: yellow;
 }
