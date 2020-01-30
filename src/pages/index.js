@@ -18,7 +18,7 @@ const Index = ({ data }) => (
         overlayColor=""
       >
         <h1 id="evoraGT-h1" className="model-h1">
-          Evora GT
+          Lotus <b>Evora GT</b>
         </h1>
       </BgImage>
     </div>
@@ -29,7 +29,7 @@ const Index = ({ data }) => (
         overlayColor=""
       >
         <h1 className="model-h1" style={{ color: "yellow" }}>
-          Evora 400
+          Lotus <b>Evora 400</b>
         </h1>
       </BgImage>
     </div>
