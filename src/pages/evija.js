@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const styles = {
   width: "400px",
-  marginTop: "80px",
+  marginTop: "30rem",
 }
 
 const Index = ({ data }) => (
