@@ -19,9 +19,9 @@
 }
 .heading-A {
   text-transform: uppercase;
-  grid-area: A;
-  justify-self: center;
-  padding-top: 2rem;
+  /* grid-area: A; */
+  /* justify-self: center; */
+  /* padding-top: 2rem; */
 }
 .area-A {
   grid-area: A;
@@ -42,32 +42,32 @@
 
 .heading-D {
   text-transform: uppercase;
-  grid-area: D;
-  justify-self: center;
-  padding-top: 2rem;
+  /* grid-area: D; */
+  /* justify-self: center; */
+  /* padding-top: 2rem; */
 }
 
 .area-D {
   grid-area: D;
   justify-self: center;
   justify-self: center;
-  padding: 4rem 3rem;
+  padding: 2rem 3rem;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
 .heading-E {
   text-transform: uppercase;
-  grid-area: E;
-  justify-self: center;
-  padding-top: 2rem;
+  /* grid-area: E; */
+  /* justify-self: center; */
+  /* padding-top: 2rem; */
 }
 
 .area-E {
   grid-area: E;
   justify-self: center;
   justify-self: center;
-  padding: 4rem 3rem;
+  padding: 2rem 3rem;
   padding-bottom: 0;
   margin-bottom: 0;
 }

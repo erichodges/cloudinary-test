@@ -14,10 +14,9 @@ const evora = ({ data }) => (
     <div className="evoraGTSubmenu"></div>
     <div className="optionMenu"></div>
     <div className="main">
-      <h4 className="heading-A">Uniquely brilliant</h4>
+      <h4 className="heading-A area-A">Uniquely brilliant</h4>
 
       <p className="area-A">
-        <br />
         <br />
         The stunning new Evora GT takes the Evora’s unique attributes to
         spectacular new heights. Sports car agility, precision and response
@@ -42,7 +41,7 @@ const evora = ({ data }) => (
       <div className="area-C" style={{ width: "100%" }}>
         <Image fluid={data.evoraGTWheel.cloudinary.fluid} />
       </div>
-      <h4 className="heading-D">Handling masterclass</h4>
+      <h4 className="heading-D area-D">Handling masterclass</h4>
       <p className="area-D">
         <br />
         Whatever the road throws at you, whether it’s a sweeping curve,
@@ -58,7 +57,7 @@ const evora = ({ data }) => (
       <div className="area-F" style={{ width: "100%" }}>
         <Image fluid={data.evoraGTInterior.cloudinary.fluid} />
       </div>
-      <h4 className="heading-E">Versatility</h4>
+      <h4 className="heading-E area-E">Versatility</h4>
       <p className="area-E">
         <br />
         Available as both a 2+0 or 2+2, with a choice of 6-speed manual or
