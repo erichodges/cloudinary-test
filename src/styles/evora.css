@@ -5,6 +5,7 @@
     "A  B"
     "C  D"
     "E  F";
+  font-size: 1.75rem;
 }
 
 .evoraGTHeaderImage {
@@ -28,7 +29,6 @@
   padding: 2rem 3rem;
   padding-bottom: 0;
   margin-bottom: 0;
-  font-size: 14.4px;
 }
 .area-B {
   grid-area: B;
@@ -54,7 +54,6 @@
   padding: 4rem 3rem;
   padding-bottom: 0;
   margin-bottom: 0;
-  font-size: 14.4px;
 }
 
 .heading-E {
@@ -71,7 +70,6 @@
   padding: 4rem 3rem;
   padding-bottom: 0;
   margin-bottom: 0;
-  font-size: 14.4px;
 }
 .area-F {
   grid-area: F;
