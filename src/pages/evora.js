@@ -44,6 +44,7 @@ const evora = ({ data }) => (
       </div>
       <h4 className="heading-D">Handling masterclass</h4>
       <p className="area-D">
+        <br />
         Whatever the road throws at you, whether it’s a sweeping curve,
         challenging hairpin or undulating straight, the Evora demonstrates
         complete mastery over them all. An elegant, low-drag, fastback design
@@ -57,8 +58,9 @@ const evora = ({ data }) => (
       <div className="area-F" style={{ width: "100%" }}>
         <Image fluid={data.evoraGTInterior.cloudinary.fluid} />
       </div>
-      {/* <h4 className="heading-D">Handling masterclass</h4> */}
+      <h4 className="heading-E">Versatility</h4>
       <p className="area-E">
+        <br />
         Available as both a 2+0 or 2+2, with a choice of 6-speed manual or
         paddleshift automatic transmissions, a wide range of options allows you
         to specify your car for enhanced GT comfort or greater track focus. A
