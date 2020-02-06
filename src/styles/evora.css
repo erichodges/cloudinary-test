@@ -17,12 +17,11 @@
   width: 100%;
   background-color: yellow;
 }
-.heading-A {
+.heading {
   text-transform: uppercase;
-  /* grid-area: A; */
-  /* justify-self: center; */
-  /* padding-top: 2rem; */
+  margin-bottom: 1rem;
 }
+
 .area-A {
   grid-area: A;
   justify-self: center;
@@ -40,13 +39,6 @@
   justify-self: center;
 }
 
-.heading-D {
-  text-transform: uppercase;
-  /* grid-area: D; */
-  /* justify-self: center; */
-  /* padding-top: 2rem; */
-}
-
 .area-D {
   grid-area: D;
   justify-self: center;
@@ -54,13 +46,6 @@
   padding: 2rem 3rem;
   padding-bottom: 0;
   margin-bottom: 0;
-}
-
-.heading-E {
-  text-transform: uppercase;
-  /* grid-area: E; */
-  /* justify-self: center; */
-  /* padding-top: 2rem; */
 }
 
 .area-E {
