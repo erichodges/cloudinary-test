@@ -8,6 +8,30 @@
   font-size: 1.75rem;
 }
 
+@media screen and (max-width: 1030px) {
+  .main {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  .main {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .main {
+    font-size: 1.2rem;
+  }
+}
+
 .evoraGTHeaderImage {
   width: 100%;
 }
