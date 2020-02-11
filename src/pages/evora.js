@@ -19,6 +19,7 @@ const evora = ({ data }) => (
       <p className="area-A">
         <br />
         <br />
+        <br />
         The stunning new Evora GT takes the Evora’s unique attributes to
         spectacular new heights. Sports car agility, precision and response
         meets GT car refinement and comfort like never before.

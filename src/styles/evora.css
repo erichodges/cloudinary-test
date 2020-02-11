@@ -5,7 +5,7 @@
     "A  B"
     "C  D"
     "E  F";
-  font-size: 1.75rem;
+  font-size: 1.6rem;
   font-weight: 300;
 }
 
@@ -44,13 +44,15 @@
 }
 .heading {
   text-transform: uppercase;
+  font-size: 2.7rem;
+  font-weight: 100;
   margin-bottom: 1rem;
 }
 
 .area-A {
   grid-area: A;
   justify-self: center;
-  padding: 2rem 3rem;
+  padding: 2rem 6rem;
   padding-bottom: 0;
   margin-bottom: 0;
 }
