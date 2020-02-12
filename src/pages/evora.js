@@ -47,6 +47,7 @@ const evora = ({ data }) => (
       <p className="area-D">
         <br />
         <br />
+        <br />
         Whatever the road throws at you, whether it’s a sweeping curve,
         challenging hairpin or undulating straight, the Evora demonstrates
         complete mastery over them all. An elegant, low-drag, fastback design
@@ -62,6 +63,7 @@ const evora = ({ data }) => (
       </div>
       <h4 className="heading area-E">Versatility</h4>
       <p className="area-E">
+        <br />
         <br />
         <br />
         Available as both a 2+0 or 2+2, with a choice of 6-speed manual or
