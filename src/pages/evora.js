@@ -37,14 +37,17 @@ const evora = ({ data }) => (
       </p>
       <div className="area-B" style={{ width: "100%" }}>
         <Image
-          className="backOfEvora"
+          className="objectFit"
           fluid={data.evoraGTBack.cloudinary.fluid}
         />
       </div>
 
       <br />
       <div className="area-C" style={{ width: "100%" }}>
-        <Image fluid={data.evoraGTWheel.cloudinary.fluid} />
+        <Image
+          className="objectFit"
+          fluid={data.evoraGTWheel.cloudinary.fluid}
+        />
       </div>
       <h4 className="heading area-D">Handling masterclass</h4>
       <p className="area-D">
@@ -62,7 +65,10 @@ const evora = ({ data }) => (
         connected to the road.
       </p>
       <div className="area-F" style={{ width: "100%" }}>
-        <Image fluid={data.evoraGTInterior.cloudinary.fluid} />
+        <Image
+          className="objectFit"
+          fluid={data.evoraGTInterior.cloudinary.fluid}
+        />
       </div>
       <h4 className="heading area-E">Versatility</h4>
       <p className="area-E">

@@ -61,7 +61,7 @@
   grid-area: B;
 }
 
-.backOfEvora {
+.objectFit {
   object-fit: cover;
   height: 100%;
   width: auto;
