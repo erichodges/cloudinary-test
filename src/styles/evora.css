@@ -44,8 +44,9 @@
 }
 .heading {
   text-transform: uppercase;
-  font-size: 2.7rem;
+  font-size: 2.24rem;
   font-weight: 100;
+  color: #062e28;
   margin-bottom: 1rem;
 }
 
