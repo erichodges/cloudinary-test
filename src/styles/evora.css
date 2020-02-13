@@ -59,7 +59,12 @@
 }
 .area-B {
   grid-area: B;
-  justify-self: center;
+}
+
+.backOfEvora {
+  object-fit: cover;
+  height: 100%;
+  width: auto;
 }
 
 .area-C {

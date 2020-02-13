@@ -36,7 +36,10 @@ const evora = ({ data }) => (
         enthralling, immersive driving experience.
       </p>
       <div className="area-B" style={{ width: "100%" }}>
-        <Image fluid={data.evoraGTBack.cloudinary.fluid} />
+        <Image
+          className="backOfEvora"
+          fluid={data.evoraGTBack.cloudinary.fluid}
+        />
       </div>
 
       <br />
