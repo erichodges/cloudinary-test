@@ -53,8 +53,8 @@
 .area-A {
   grid-area: A;
   justify-self: center;
-  padding: 2rem 6rem;
-  padding-bottom: 0;
+  padding: 2rem 7rem;
+  padding-bottom: 3rem;
   margin-bottom: 0;
 }
 .area-B {
@@ -76,8 +76,8 @@
   grid-area: D;
   justify-self: center;
   justify-self: center;
-  padding: 2rem 3rem;
-  padding-bottom: 0;
+  padding: 2rem 7rem;
+  padding-bottom: 3rem;
   margin-bottom: 0;
 }
 
@@ -85,8 +85,8 @@
   grid-area: E;
   justify-self: center;
   justify-self: center;
-  padding: 2rem 3rem;
-  padding-bottom: 0;
+  padding: 2rem 7rem;
+  padding-bottom: 3rem;
   margin-bottom: 0;
 }
 .area-F {
