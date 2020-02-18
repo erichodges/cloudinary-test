@@ -9,10 +9,15 @@
   font-weight: 300;
 }
 
-@media screen and (max-width: 2500px) {
+@media screen and (min-width: 1351px) {
   .main {
     font-size: 2.5rem;
     font-weight: 100;
+  }
+
+  h4.heading {
+    text-transform: uppercase;
+    font-size: 4rem;
   }
 }
 
@@ -20,17 +25,32 @@
   .main {
     font-size: 1.9rem;
   }
+
+  h4.heading {
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 1030px) {
   .main {
     font-size: 1.6rem;
   }
+
+  h4.heading {
+    text-transform: uppercase;
+    font-size: 2.7rem;
+  }
 }
 
 @media screen and (max-width: 939px) {
   .main {
     font-size: 1.4rem;
+  }
+
+  h4.heading {
+    text-transform: uppercase;
+    font-size: 2.2rem;
   }
 }
 
