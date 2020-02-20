@@ -2,6 +2,7 @@
 header {
   align-items: center;
   font-family: Overpass, sans-serif;
+  font-weight: 300;
   background-color: #062e28;
   color: #e7e5eb;
   position: sticky;
@@ -11,7 +12,7 @@ header {
 
 ul {
   width: 100vw;
-  height: 7rem;
+  height: 8rem;
   align-items: center;
   padding: 0;
   list-style: none;
