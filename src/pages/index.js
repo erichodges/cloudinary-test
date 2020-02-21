@@ -39,7 +39,7 @@ const Index = ({ data }) => (
       <br />
       <Link to="/evija">evija</Link>
       <br />
-      <Link to="/evora">evora</Link>
+      <Link to="/evora-gt">evora</Link>
     </div>
   </Layout>
 )
