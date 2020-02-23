@@ -1,4 +1,4 @@
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import React from "react"
 import logo from "../../static/evija-logo-1560-white.gif"
 import BgImage from "../components/BgImage"
@@ -19,9 +19,6 @@ const Index = ({ data }) => (
       <SEO title="Page two" />
       <h1>Home page</h1>
       <p>Welcome</p>
-      <Link to="/page-2">Page 2</Link>
-      <br />
-      <Link to="/page-3">Page 3</Link>
     </div>
   </Layout>
 )
