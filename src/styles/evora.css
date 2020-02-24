@@ -1,0 +1,160 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "A  B"
+    "C  D"
+    "E  F";
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 1351px) {
+  .main {
+    font-size: 2.5rem;
+    font-weight: 100;
+  }
+
+  h4.heading {
+    text-transform: uppercase;
+    font-size: 3.4rem;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .main {
+    font-size: 1.44rem;
+  }
+
+  h4.heading {
+    text-transform: uppercase;
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .main {
+    font-size: 1.6rem;
+  }
+
+  h4.heading {
+    text-transform: uppercase;
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  .main {
+    font-size: 1.4rem;
+  }
+
+  h4.heading {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main {
+    font-size: 1.3rem;
+  }
+
+  h4.heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .main {
+    font-size: 1.4rem;
+  }
+
+  h4.heading {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "B"
+      "A"
+      "C"
+      "D"
+      "F"
+      "E";
+    font-size: 1.4rem;
+  }
+
+  h4.heading {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+  }
+}
+
+.evoraGTHeaderImage {
+  width: 100%;
+}
+
+.evoraGTSubmenu {
+  height: 4.8rem;
+  width: 100%;
+  background-color: yellow;
+}
+.heading {
+  text-transform: uppercase;
+  font-size: 2.24rem;
+  font-weight: 100;
+  color: #062e28;
+  margin-bottom: 1rem;
+}
+
+.area-A {
+  grid-area: A;
+  justify-self: center;
+  line-height: 2.5rem;
+  font-weight: 200;
+  padding: 2rem 10rem;
+  text-rendering: optimizeLegibility;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+}
+.area-B {
+  grid-area: B;
+}
+
+.objectFit {
+  object-fit: cover;
+  height: 100%;
+  width: auto;
+}
+
+.area-C {
+  grid-area: C;
+  justify-self: center;
+}
+
+.area-D {
+  grid-area: D;
+  justify-self: center;
+  justify-self: center;
+  padding: 2rem 7rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+}
+
+.area-E {
+  grid-area: E;
+  justify-self: center;
+  justify-self: center;
+  padding: 2rem 7rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+}
+.area-F {
+  grid-area: F;
+  justify-self: center;
+}
