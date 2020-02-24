@@ -116,11 +116,9 @@
 
 .area-A {
   grid-area: A;
-
   line-height: 2.5rem;
   font-weight: 200;
-  padding: 2rem 10rem;
-  text-rendering: optimizeLegibility;
+  padding: 6.4rem 10rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
 }
@@ -141,18 +139,20 @@
 
 .area-D {
   grid-area: D;
+  line-height: 2.5rem;
+  font-weight: 200;
   justify-self: center;
-  justify-self: center;
-  padding: 2rem 7rem;
+  padding: 6.4rem 10rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
 }
 
 .area-E {
   grid-area: E;
+  line-height: 2.5rem;
+  font-weight: 200;
   justify-self: center;
-  justify-self: center;
-  padding: 2rem 7rem;
+  padding: 6.4rem 10rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
 }

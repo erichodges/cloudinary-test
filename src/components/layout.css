@@ -36,6 +36,11 @@ dd {
 h4.heading {
   font-weight: 100;
   line-height: 3.4rem;
+  justify-self: left;
+  text-transform: uppercase;
+  font-size: 2.24rem;
+  color: #062e28;
+  margin-bottom: 1rem;
 }
 /* Set core body defaults */
 body {
