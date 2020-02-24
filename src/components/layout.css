@@ -33,6 +33,10 @@ dd {
   margin: 0;
 }
 
+h4.heading {
+  font-weight: 100;
+  line-height: 3.4rem;
+}
 /* Set core body defaults */
 body {
   margin: 0;
