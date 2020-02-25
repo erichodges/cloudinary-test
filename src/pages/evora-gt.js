@@ -11,11 +11,9 @@ const evora = ({ data }) => (
       <Image fluid={data.evoraGT.cloudinary.fluid} />
     </div>
     <div className="evoraGTSubmenu"></div>
-    <div className="optionMenu"></div>
     <div className="main">
-      <div className="heading-A">
-        <h4 className="heading">Uniquely brilliant</h4>
-      </div>
+      <h4 className="heading area-A">Uniquely brilliant</h4>
+      <div className="underline"></div>
 
       <p className="area-A">
         <br />

@@ -107,6 +107,7 @@
   background-color: yellow;
 }
 .heading {
+  grid-area: A;
   text-transform: uppercase;
   font-size: 2.24rem;
   font-weight: 100;
@@ -114,12 +115,14 @@
   margin-bottom: 1rem;
 }
 
-.heading-A {
+.underline {
   grid-area: A;
   padding: 6.4rem 10rem;
   padding-bottom: 3rem;
   margin: 0;
   justify-self: left;
+  border-bottom: solid black 1px;
+  width: 100%;
 }
 
 .area-A {
