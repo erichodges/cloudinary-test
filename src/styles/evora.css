@@ -108,21 +108,17 @@
 }
 .heading {
   grid-area: A;
+  height: 4rem;
   text-transform: uppercase;
   font-size: 2.24rem;
   font-weight: 100;
+  white-space: nowrap;
   color: #062e28;
+  margin: 6.4rem 10rem;
+  padding-bottom: 4rem;
+  padding-right: 10rem;
   margin-bottom: 1rem;
-}
-
-.underline {
-  grid-area: A;
-  padding: 6.4rem 10rem;
-  padding-bottom: 3rem;
-  margin: 0;
-  justify-self: left;
-  border-bottom: solid black 1px;
-  width: 100%;
+  border-bottom: 1px solid black;
 }
 
 .area-A {
