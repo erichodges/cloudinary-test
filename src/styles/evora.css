@@ -114,12 +114,20 @@
   margin-bottom: 1rem;
 }
 
+.heading-A {
+  grid-area: A;
+  padding: 6.4rem 10rem;
+  padding-bottom: 3rem;
+  margin: 0;
+  justify-self: left;
+}
+
 .area-A {
   grid-area: A;
   line-height: 2.5rem;
   font-weight: 200;
   padding: 6.4rem 10rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   margin-bottom: 0;
 }
 .area-B {

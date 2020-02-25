@@ -1,4 +1,3 @@
-import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import React from "react"
 import Layout from "../components/layout"
@@ -14,7 +13,9 @@ const evora = ({ data }) => (
     <div className="evoraGTSubmenu"></div>
     <div className="optionMenu"></div>
     <div className="main">
-      <h4 className="heading area-A">Uniquely brilliant</h4>
+      <div className="heading-A">
+        <h4 className="heading">Uniquely brilliant</h4>
+      </div>
 
       <p className="area-A">
         <br />
