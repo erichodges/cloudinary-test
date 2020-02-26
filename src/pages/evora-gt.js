@@ -13,7 +13,7 @@ const evora = ({ data }) => (
     <div className="evoraGTSubmenu"></div>
     <div className="main">
       <h4 className="heading">Uniquely brilliant</h4>
-      <p className="area-A">
+      <p className="area-A body-text">
         <br />
         <br />
         <br />
@@ -47,7 +47,7 @@ const evora = ({ data }) => (
         />
       </div>
       <h4 className="heading area-D">Handling masterclass</h4>
-      <p className="area-D">
+      <p className="area-D body-text">
         <br />
         <br />
         <br />
@@ -68,7 +68,7 @@ const evora = ({ data }) => (
         />
       </div>
       <h4 className="heading area-E">Versatility</h4>
-      <p className="area-E">
+      <p className="area-E body-text">
         <br />
         <br />
         <br />
