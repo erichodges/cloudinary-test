@@ -12,7 +12,7 @@ const evora = ({ data }) => (
     </div>
     <div className="evoraGTSubmenu"></div>
     <div className="main">
-      <h4 className="heading">Uniquely brilliant</h4>
+      <h4 className="heading area-A">Uniquely brilliant</h4>
       <p className="area-A body-text">
         <br />
         <br />
