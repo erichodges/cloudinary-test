@@ -12,15 +12,17 @@ const Index = ({ data }) => (
       <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4" />
     </div>
     <div className="photo-div">
-      <BgImage
-        title="evora-gt"
-        fluid={data.evoraGT.cloudinary.fluid}
-        overlayColor=""
-      >
-        <h1 id="evoraGT-h1" className="model-h1">
-          Lotus <b>Evora GT</b>
-        </h1>
-      </BgImage>
+      <Link to="/evora-gt">
+        <BgImage
+          title="evora-gt"
+          fluid={data.evoraGT.cloudinary.fluid}
+          overlayColor=""
+        >
+          <h1 id="evoraGT-h1" className="model-h1">
+            Lotus <b>Evora GT</b>
+          </h1>
+        </BgImage>
+      </Link>
     </div>
     <div>
       <BgImage
