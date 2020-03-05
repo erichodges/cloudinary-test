@@ -1,5 +1,1 @@
-  Gatsby's default starter with gatsby-transformer-cloudinary 
-</h1>
-
-
-
+## Gatsby's default starter with gatsby-transformer-cloudinary
