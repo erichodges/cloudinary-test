@@ -1,8 +1,8 @@
 // https://markoskon.com/gatsby-background-image-example/
-import Image from "gatsby-image"
-import PropTypes from "prop-types"
-import React from "react"
-import styled from "styled-components"
+import Image from 'gatsby-image'
+import PropTypes from 'prop-types'
+import React from 'react'
+import styled from 'styled-components'
 
 const Parent = styled.div`
   position: relative;
@@ -77,7 +77,7 @@ BgImage.propTypes = {
 BgImage.defaultProps = {
   height: null,
   mobileHeight: null,
-  overlayColor: "transparent",
+  overlayColor: 'transparent',
   children: null,
   className: null,
 }

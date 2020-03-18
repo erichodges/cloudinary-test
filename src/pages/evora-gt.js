@@ -1,19 +1,19 @@
-import Image from "gatsby-image"
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import "../styles/evora.css"
+import Image from 'gatsby-image'
+import React from 'react'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import '../styles/evora.css'
 
 const evora = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
-    <div className="evoraGTHeaderImage">
+    <SEO title='Home' />
+    <div className='evoraGTHeaderImage'>
       <Image fluid={data.evoraGT.cloudinary.fluid} />
     </div>
-    <div className="evoraGTSubmenu"></div>
-    <div className="main">
-      <h4 className="heading area-A">Uniquely brilliant</h4>
-      <p className="area-A body-text">
+    <div className='evoraGTSubmenu'></div>
+    <div className='main'>
+      <h4 className='heading area-A'>Uniquely brilliant</h4>
+      <p className='area-A body-text'>
         <br />
         <br />
         <br />
@@ -32,22 +32,22 @@ const evora = ({ data }) => (
         rhythm, smoothing out rough surfaces, breathing with the road for an
         enthralling, immersive driving experience.
       </p>
-      <div className="area-B" style={{ width: "100%" }}>
+      <div className='area-B' style={{ width: '100%' }}>
         <Image
-          className="objectFit"
+          className='objectFit'
           fluid={data.evoraGTBack.cloudinary.fluid}
         />
       </div>
 
       <br />
-      <div className="area-C" style={{ width: "100%" }}>
+      <div className='area-C' style={{ width: '100%' }}>
         <Image
-          className="objectFit"
+          className='objectFit'
           fluid={data.evoraGTWheel.cloudinary.fluid}
         />
       </div>
-      <h4 className="heading area-D">Handling masterclass</h4>
-      <p className="area-D body-text">
+      <h4 className='heading area-D'>Handling masterclass</h4>
+      <p className='area-D body-text'>
         <br />
         <br />
         <br />
@@ -61,14 +61,14 @@ const evora = ({ data }) => (
         the driver while filtering out unwanted noise, keeping you uniquely
         connected to the road.
       </p>
-      <div className="area-F" style={{ width: "100%" }}>
+      <div className='area-F' style={{ width: '100%' }}>
         <Image
-          className="objectFit"
+          className='objectFit'
           fluid={data.evoraGTInterior.cloudinary.fluid}
         />
       </div>
-      <h4 className="heading area-E">Versatility</h4>
-      <p className="area-E body-text">
+      <h4 className='heading area-E'>Versatility</h4>
+      <p className='area-E body-text'>
         <br />
         <br />
         <br />
@@ -106,16 +106,16 @@ export const fluidImage = graphql`
 
 export const query = graphql`
   query {
-    evoraGT: file(name: { eq: "evora-gt-front" }) {
+    evoraGT: file(name: { eq: 'evora-gt-front' }) {
       ...fluidImage
     }
-    evoraGTBack: file(name: { eq: "evoraGT-back-square" }) {
+    evoraGTBack: file(name: { eq: 'evoraGT-back-square' }) {
       ...fluidImage
     }
-    evoraGTWheel: file(name: { eq: "evoraGT-wheel" }) {
+    evoraGTWheel: file(name: { eq: 'evoraGT-wheel' }) {
       ...fluidImage
     }
-    evoraGTInterior: file(name: { eq: "evoraGT-Interior" }) {
+    evoraGTInterior: file(name: { eq: 'evoraGT-Interior' }) {
       ...fluidImage
     }
   }

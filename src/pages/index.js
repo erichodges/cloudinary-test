@@ -1,24 +1,24 @@
-import { graphql, Link } from "gatsby"
-import React from "react"
-import BgImage from "../components/BgImage"
-import Layout from "../components/layout"
-import ResponsivePlayer from "../components/ResponsivePlayer"
-import SEO from "../components/seo"
-import "../styles/index.css"
+import { graphql, Link } from 'gatsby'
+import React from 'react'
+import BgImage from '../components/BgImage'
+import Layout from '../components/layout'
+import ResponsivePlayer from '../components/ResponsivePlayer'
+import SEO from '../components/seo'
+import '../styles/index.css'
 
 const Index = ({ data }) => (
   <Layout>
     <div>
-      <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4" />
+      <ResponsivePlayer url='https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4' />
     </div>
-    <div className="photo-div">
-      <Link to="/evora-gt">
+    <div className='photo-div'>
+      <Link to='/evora-gt'>
         <BgImage
-          title="evora-gt"
+          title='evora-gt'
           fluid={data.evoraGT.cloudinary.fluid}
-          overlayColor=""
+          overlayColor=''
         >
-          <h1 id="evoraGT-h1" className="model-h1">
+          <h1 id='evoraGT-h1' className='model-h1'>
             Lotus <b>Evora GT</b>
           </h1>
         </BgImage>
@@ -26,22 +26,22 @@ const Index = ({ data }) => (
     </div>
     <div>
       <BgImage
-        title="evora-400"
+        title='evora-400'
         fluid={data.evoraFour.cloudinary.fluid}
-        overlayColor=""
+        overlayColor=''
       >
-        <h1 className="model-h1" style={{ color: "yellow" }}>
+        <h1 className='model-h1' style={{ color: 'yellow' }}>
           Lotus <b>Evora 400</b>
         </h1>
       </BgImage>
     </div>
     <div>
-      <SEO title="Page two" />
+      <SEO title='Page two' />
       <h1>Index page</h1>
       <br />
-      <Link to="/evija">evija</Link>
+      <Link to='/evija'>evija</Link>
       <br />
-      <Link to="/evora-gt">evora</Link>
+      <Link to='/evora-gt'>evora</Link>
     </div>
   </Layout>
 )
@@ -58,13 +58,13 @@ export const fluidImage = graphql`
 
 export const query = graphql`
   query {
-    evoraGT: file(name: { eq: "evora-gt-side" }) {
+    evoraGT: file(name: { eq: 'evora-gt-side' }) {
       ...fluidImage
     }
-    evoraFour: file(name: { eq: "evora-400-side" }) {
+    evoraFour: file(name: { eq: 'evora-400-side' }) {
       ...fluidImage
     }
-    logo: file(name: { eq: "lotus-logo" }) {
+    logo: file(name: { eq: 'lotus-logo' }) {
       ...fluidImage
     }
   }
