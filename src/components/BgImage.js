@@ -1,4 +1,5 @@
 // https://markoskon.com/gatsby-background-image-example/
+
 import Image from 'gatsby-image'
 import PropTypes from 'prop-types'
 import React from 'react'
