@@ -33,7 +33,7 @@ export const fluidImage = graphql`
 
 export const query = graphql`
   query {
-    logo: file(name: { eq: 'lotus-logo' }) {
+    logo: file(name: { eq: "lotus-logo" }) {
       ...fluidImage
     }
   }

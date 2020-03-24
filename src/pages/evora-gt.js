@@ -106,16 +106,16 @@ export const fluidImage = graphql`
 
 export const query = graphql`
   query {
-    evoraGT: file(name: { eq: 'evora-gt-front' }) {
+    evoraGT: file(name: { eq: "evora-gt-front" }) {
       ...fluidImage
     }
-    evoraGTBack: file(name: { eq: 'evoraGT-back-square' }) {
+    evoraGTBack: file(name: { eq: "evoraGT-back-square" }) {
       ...fluidImage
     }
-    evoraGTWheel: file(name: { eq: 'evoraGT-wheel' }) {
+    evoraGTWheel: file(name: { eq: "evoraGT-wheel" }) {
       ...fluidImage
     }
-    evoraGTInterior: file(name: { eq: 'evoraGT-Interior' }) {
+    evoraGTInterior: file(name: { eq: "evoraGT-Interior" }) {
       ...fluidImage
     }
   }

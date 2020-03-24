@@ -58,13 +58,13 @@ export const fluidImage = graphql`
 
 export const query = graphql`
   query {
-    evoraGT: file(name: { eq: 'evora-gt-side' }) {
+    evoraGT: file(name: { eq: "evora-gt-side" }) {
       ...fluidImage
     }
-    evoraFour: file(name: { eq: 'evora-400-side' }) {
+    evoraFour: file(name: { eq: "evora-400-side" }) {
       ...fluidImage
     }
-    logo: file(name: { eq: 'lotus-logo' }) {
+    logo: file(name: { eq: "lotus-logo" }) {
       ...fluidImage
     }
   }

@@ -25,7 +25,7 @@ const Index = ({ data }) => (
 
 export const query = graphql`
   query {
-    image: file(name: { eq: 'evija-hero' }) {
+    image: file(name: { eq: "evija-hero" }) {
       cloudinary: childCloudinaryAsset {
         fluid(maxWidth: 1920) {
           ...CloudinaryAssetFluid
