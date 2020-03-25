@@ -17,8 +17,7 @@ const Index = ({ data }) => (
     </BgImage>
     <div>
       <SEO title='Page two' />
-      <h1>Home page</h1>
-      <p>Welcome</p>
+      <h1>Evija page</h1>
     </div>
   </Layout>
 )
