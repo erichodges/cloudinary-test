@@ -8,11 +8,15 @@ const Header = ({ data }) => (
     <ul className='menu-items'>
       <li className='Img'>
         <Link to='/'>
-          <img src={LotusLogo} alt='Lotus logo' />
+          <img src={LotusLogo} alt='Lotus logo' width='60px' height='60px' />
         </Link>
       </li>
-      <li className='menu'>Models</li>
-      <li className='menu'>Pre-owned</li>
+      <Link to='/evija'>
+        <li className='menu'>Evija</li>
+      </Link>
+      <Link to='/evora-gt'>
+        <li className='menu'>Evora GT</li>
+      </Link>
       <li className='menu'>For the drivers</li>
 
       <li className='menu'>Test Drive</li>

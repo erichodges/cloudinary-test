@@ -6,6 +6,7 @@
  */
 
 // import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import Footer from '../components/Footer'
@@ -13,15 +14,17 @@ import Header from '../components/Header'
 import './layout.css'
 
 const Layout = ({ children }) => {
-  // const data = useStaticQuery(graphql`
-  //   query SiteTitleQuery {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `)
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
+  console.log(data)
 
   return (
     <>

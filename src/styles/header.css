@@ -24,10 +24,15 @@ ul {
 
 .menu-items li {
   cursor: pointer;
+  text-decoration-line: none;
 }
 
 .menu-items li:hover {
   color: #fff200;
+}
+
+.menu-items a {
+  color: #e7e5eb;
 }
 
 .Img {
