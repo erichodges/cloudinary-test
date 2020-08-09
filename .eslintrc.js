@@ -1,10 +1,15 @@
-{
-  "extends": ["airbnb", "prettier", "prettier/react"],
+module.exports = {
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "plugin:jsx-a11y/recommended"
+  ],
   "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 2020,
-    // Can I remove these now?
+    "ecmaVersion": 8,
     "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
       "impliedStrict": true,
       "classes": true
     }
@@ -16,30 +21,21 @@
     "jest": true
   },
   "rules": {
+    "react/prop-types": 0,
+    "react-hooks/rules-of-hooks": "error",
     "no-debugger": 0,
     "no-alert": 0,
-    "no-await-in-loop": 0,
-    "no-return-assign": ["error", "except-parens"],
-    "no-restricted-syntax": [
-      2,
-      "ForInStatement",
-      "LabeledStatement",
-      "WithStatement"
-    ],
-    "no-unused-vars": [
-      1,
-      {
-        "ignoreSiblings": true,
-        "argsIgnorePattern": "res|next|^err"
-      }
-    ],
+    "no-unused-vars": 1,
     "prefer-const": [
       "error",
       {
         "destructuring": "all"
       }
     ],
-    "arrow-body-style": [2, "as-needed"],
+    "arrow-body-style": [
+      2,
+      "as-needed"
+    ],
     "no-unused-expressions": [
       2,
       {
@@ -58,6 +54,7 @@
     "func-names": 0,
     "space-before-function-paren": 0,
     "comma-dangle": 0,
+    "class-methods-use-this": 0,
     "max-len": 0,
     "import/extensions": 0,
     "no-underscore-dangle": 0,
@@ -67,13 +64,17 @@
     "react/react-in-jsx-scope": 0,
     "react/prefer-stateless-function": 0,
     "react/forbid-prop-types": 0,
+    "react/jsx-props-no-spreading": 0,
     "react/no-unescaped-entities": 0,
     "jsx-a11y/accessible-emoji": 0,
     "react/require-default-props": 0,
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [".js", ".jsx"]
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
       }
     ],
     "radix": 0,
@@ -81,11 +82,18 @@
       2,
       {
         "hoist": "all",
-        "allow": ["resolve", "reject", "done", "next", "err", "error"]
+        "allow": [
+          "resolve",
+          "reject",
+          "done",
+          "next",
+          "err",
+          "error"
+        ]
       }
     ],
     "quotes": [
-      2,
+      1,
       "single",
       {
         "avoidEscape": true,
@@ -104,11 +112,15 @@
     "jsx-a11y/anchor-is-valid": [
       "warn",
       {
-        "aspects": ["invalidHref"]
+        "aspects": [
+          "invalidHref"
+        ]
       }
-    ],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    ]
   },
-  "plugins": ["html", "prettier", "react-hooks"]
+  "plugins": [
+    "prettier",
+    "react",
+    "react-hooks"
+  ]
 }
