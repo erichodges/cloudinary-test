@@ -9,16 +9,16 @@ import '../styles/index.css';
 const Index = ({ data }) => (
   <Layout>
     <div>
-      <ResponsivePlayer url="https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4" />
+      <ResponsivePlayer url='https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4' />
     </div>
-    <div className="photo-div">
+    <div className='photo-div'>
       <BgImage
-        title="evora-gt"
+        title='evora-gt'
         fluid={data.evoraGT.cloudinary.fluid}
-        overlayColor=""
+        overlayColor=''
       >
-        <Link to="/evora-gt">
-          <h1 id="evoraGT-h1" className="model-h1">
+        <Link to='/evora-gt'>
+          <h1 id='evoraGT-h1' className='model-h1'>
             Lotus <b>Evora GT</b>
           </h1>
         </Link>
@@ -26,22 +26,22 @@ const Index = ({ data }) => (
     </div>
     <div>
       <BgImage
-        title="evora-400"
+        title='evora-400'
         fluid={data.evoraFour.cloudinary.fluid}
-        overlayColor=""
+        overlayColor=''
       >
-        <h1 className="model-h1" style={{ color: 'yellow' }}>
+        <h1 className='model-h1' style={{ color: 'yellow' }}>
           Lotus <b>Evora 400</b>
         </h1>
       </BgImage>
     </div>
     <div>
-      <SEO title="Page two" />
+      <SEO title='Page two' />
       <h1>Index page</h1>
       <br />
-      <Link to="/evija">evija</Link>
+      <Link to='/evija'>evija</Link>
       <br />
-      <Link to="/evora-gt">evora</Link>
+      <Link to='/evora-gt'>evora</Link>
     </div>
   </Layout>
 );
