@@ -1,9 +1,9 @@
 // https://markoskon.com/gatsby-background-image-example/
 
-import Image from 'gatsby-image'
-import PropTypes from 'prop-types'
-import React from 'react'
-import styled from 'styled-components'
+import Image from 'gatsby-image';
+import PropTypes from 'prop-types';
+import React from 'react';
+import styled from 'styled-components';
 
 const Parent = styled.div`
   position: relative;
@@ -11,7 +11,7 @@ const Parent = styled.div`
   background-color: ${({ bc }) => bc};
   vertical-align: top;
   text-align: center;
-`
+`;
 
 const FakeBgImage = styled(Image)`
   position: absolute;
@@ -29,7 +29,7 @@ const FakeBgImage = styled(Image)`
     height: ${({ mobileHeight }) => mobileHeight};
     width: 100vw;
   }
-`
+`;
 
 const Content = styled.div`
   position: absolute;
@@ -43,7 +43,7 @@ const Content = styled.div`
     top: 47vh;
     font-size: 2rem !important;
   }
-`
+`;
 
 const BgImage = ({
   fluid,
@@ -63,7 +63,7 @@ const BgImage = ({
     />
     <Content className={className}>{children}</Content>
   </Parent>
-)
+);
 
 BgImage.propTypes = {
   fluid: PropTypes.object.isRequired,
@@ -73,7 +73,7 @@ BgImage.propTypes = {
   overlayColor: PropTypes.string,
   children: PropTypes.node,
   className: PropTypes.string,
-}
+};
 
 BgImage.defaultProps = {
   height: null,
@@ -81,6 +81,6 @@ BgImage.defaultProps = {
   overlayColor: 'transparent',
   children: null,
   className: null,
-}
+};
 
-export default BgImage
+export default BgImage;
