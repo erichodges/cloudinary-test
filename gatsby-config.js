@@ -1,6 +1,6 @@
-require("dotenv").config({
+require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+});
 // the above works with .env.development and
 // require('dotenv').config(); works with .env
 
@@ -23,12 +23,12 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-transformer-cloudinary",
+      resolve: 'gatsby-transformer-cloudinary',
       options: {
         cloudName: process.env.CLOUDINARY_CLOUD_NAME,
         apiKey: process.env.CLOUDINARY_API_KEY,
         apiSecret: process.env.CLOUDINARY_API_SECRET,
-        uploadFolder: "gatsby-cloudinary",
+        uploadFolder: 'gatsby-cloudinary',
       },
     },
     {
@@ -49,4 +49,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
