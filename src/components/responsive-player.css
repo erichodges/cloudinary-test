@@ -1,9 +1,13 @@
 .react-player {
   display: block;
-  outline: 0 !important;
+  outline: none !important;
   padding: 0;
   margin: 0;
   overflow: hidden;
+}
+
+.react-player:focus {
+  outline: none;
 }
 
 .player-wrapper {
@@ -11,4 +15,8 @@
   padding: 0;
   margin: 0;
   line-height: 0;
+}
+
+.player-wrapper:focus {
+  outline: none;
 }
