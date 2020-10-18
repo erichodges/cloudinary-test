@@ -23,11 +23,7 @@ function SEO({ description, lang, meta, title }) {
         }
       }
     `
-  ).then((result) => {
-    if (result.errors) {
-      throw result.errors;
-    }
-  });
+  );
 
   const metaDescription = description || site.siteMetadata.description;
 
