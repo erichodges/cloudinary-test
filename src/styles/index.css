@@ -13,3 +13,7 @@ h1 {
 .photo-div {
   display: flex;
 }
+
+.react-player:focus {
+  outline: none;
+}

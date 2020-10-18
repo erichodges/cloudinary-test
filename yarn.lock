@@ -6744,7 +6744,7 @@ gatsby-plugin-react-helmet@^3.1.10:
   dependencies:
     "@babel/runtime" "^7.11.2"
 
-gatsby-plugin-sharp@^2.2.27:
+gatsby-plugin-sharp@^2.6.42:
   version "2.6.42"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.42.tgz#94556e8633a7d15299d6aa8dc5e9a686af8debfb"
   integrity sha512-uqra+GDLEfE5Kv8Th1lkQKS6FIRwPzwipoWJBogfPLTnl0L3t+ogdEhN8p5d7G6SYoaukuGrix162mbQXqASBA==
