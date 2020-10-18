@@ -3,12 +3,11 @@ import React from 'react';
 import BgImage from '../components/BgImage';
 import Layout from '../components/layout';
 import ResponsivePlayer from '../components/ResponsivePlayer';
-import SEO from '../components/seo';
 import '../styles/index.css';
 
 const Index = ({ data }) => (
   <Layout>
-    <div>
+    <div style={{ outline: 'none' }}>
       <ResponsivePlayer url='https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4' />
     </div>
     <div className='photo-div'>
@@ -34,14 +33,6 @@ const Index = ({ data }) => (
           Lotus <b>Evora 400</b>
         </h1>
       </BgImage>
-    </div>
-    <div>
-      <SEO title='Page two' />
-      <h1>Index page</h1>
-      <br />
-      <Link to='/evija'>evija</Link>
-      <br />
-      <Link to='/evora-gt'>evora</Link>
     </div>
   </Layout>
 );
