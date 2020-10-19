@@ -24,7 +24,13 @@ ul {
 
 .menu-items li {
   cursor: pointer;
-  text-decoration-line: none;
+
+}
+
+a {
+  text-decoration: none;
+  text-decoration-line: none !important;
+  text-decoration-style: unset !important;
 }
 
 .menu-items li:hover {
