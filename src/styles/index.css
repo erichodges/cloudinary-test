@@ -17,3 +17,7 @@ h1 {
 .react-player:focus {
   outline: none;
 }
+
+.video:focus {
+  outline: none !important;
+}

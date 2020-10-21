@@ -7,7 +7,7 @@ import '../styles/index.css';
 
 const Index = ({ data }) => (
   <Layout>
-    <div style={{ outline: 'none' }}>
+    <div className='video'>
       <ResponsivePlayer url='https://res.cloudinary.com/dn3baky3u/video/upload/v1578436685/gatsby-cloudinary/evija-video-1920.mp4' />
     </div>
     <div className='photo-div'>

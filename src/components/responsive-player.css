@@ -6,8 +6,8 @@
   overflow: hidden;
 }
 
-.react-player:focus {
-  outline: none;
+.react-player * {
+  outline-color: none !important;
 }
 
 .player-wrapper {
@@ -18,5 +18,5 @@
 }
 
 .player-wrapper:focus {
-  outline: none;
+  outline-color: none !important;
 }
